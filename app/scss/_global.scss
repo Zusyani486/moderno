@@ -46,7 +46,7 @@ color: $text;
 .title{
     text-align: center;
     color: $bg;
-    font-weight: 700;
+    @include f700;
     line-height: 60px;
     font-size: 36px;
     margin-bottom: 30px;
